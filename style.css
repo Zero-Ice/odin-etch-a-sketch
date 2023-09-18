@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+div {
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.cell {
+  background-color: pink;
+  aspect-ratio: 1/1;
+  flex-basis: 16px;
+  flex: 1 0 auto;
+}
+
+.cell:hover {
+  transform: scale(1.1);
+  box-shadow: pink;
+  background-color: coral;
+}
